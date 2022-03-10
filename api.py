@@ -28,10 +28,15 @@ def read_root():
 @app.route("/math/<int:num>/") #math/
 def math_func(num: int): #math_func
     object=modulefunction.Mathematics(int(num))
-    results={"number": int(num),
+    results={
+             "number": int(num),
+
              "factorial": object.factorial(),
+
              "square": object.square(),
+
              "cube": object.cube(),
+
              }
 
     return str(results)
