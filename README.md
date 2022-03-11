@@ -10,7 +10,8 @@ that will be taken from a user.
 we make a docker container for user convenience to run this project 
 without any trouble.
 
-> POST api is not being in running form due to some error in
+POST api is not being in running form but developer is being working on diagnose error
+
 ###Technologies:
 First clone the repository on your local machine  then run ***main.py***  file 
 you have to install all the following requirements in your machine:
