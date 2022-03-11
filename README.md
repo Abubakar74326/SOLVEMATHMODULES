@@ -1,5 +1,5 @@
-#Factorial Project
-##Table of Content:
+# MATH_OPERATIONAL_PROJECT
+## Table of Content:
 General information
 
 Technology
@@ -10,7 +10,7 @@ that will be taken from a user.
 we make a docker container for user convenience to run this project 
 without any trouble.
 
-POST api is not being in running form but developer is being working on diagnose error
+>'POST' api is not being in running form but developer is being working on to diagnose error
 
 ###Technologies:
 First clone the repository on your local machine  then run ***main.py***  file 
@@ -27,5 +27,4 @@ install docker engine using this link```https://docs.docker.com/engine/install/u
 ###Running OF PROJECT:
 main code is present in **main.py** file.after running main.py file get API or second method is 
 when user run docker container user get API link then user have to write **mathoperation** and after **/** put a number as an 
-argument  on which user want to perform function.Output data is in JSON  format.the applicatiion runs in a docker container with all its dependencie
-s 
+argument  on which user want to perform function.Output data is in JSON  format.the applicatiion runs in a docker container with all its dependencies. 
