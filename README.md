@@ -1,8 +1,8 @@
 # MATH_OPERATIONAL_PROJECT
 ## Table of Content:
-General information
+- General information
 
-Technology
+- Technology
 
 ### General information:
 This project perform math operation of factorial,square,cube on 
