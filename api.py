@@ -1,7 +1,7 @@
 # from typing import Optional
 # from fastapi import FastAPI
 
-'''from flask import Flask, request'''
+from flask import Flask, request
 
 from flask import Flask
 import modulefunction
@@ -13,11 +13,11 @@ app = Flask(__name__)
 def read_root():
     return {"MATH_PROJECT"}
 
-'''@app.route("/read_root/", methods=['POST'])
+'''@app.route("/read/", methods=['POST'])
 def read_root():
     data = {
-            "name emoployee", request.form['NAME'] ,
-            "employee company", request.form['COMPANY'] ,
+            "name emoployee", request.form['NAME'],
+            "employee company", request.form['COMPANY'],
             "engineer", request.form['ENGINEER']
                }
     return {data}'''
