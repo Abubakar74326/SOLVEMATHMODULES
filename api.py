@@ -3,14 +3,21 @@
 #from flask import Flask, request
 
 from flask import Flask
+""" by importing modulefunction developer access the Mathematics class in this file """
 import modulefunction
 
 app = Flask(__name__)
 
 
 @app.get("/")
+"""
+‘/’ URL is bound with read_root() function
+"""
+
 def read_root():
+   """Retrun message eill display """
     return {"MATH_PROJECT}
+            
 '''@app.route("/read/", methods=['POST'])
 def read_root():
     data = {
