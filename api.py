@@ -1,8 +1,8 @@
 # from typing import Optional
 # from fastapi import FastAPI
-#from flask import Flask, request
+from flask import Flask, request
 
-from flask import Flask
+#from flask import Flask
 """ By importing modulefunction developer access the Mathematics class in this file """
 import modulefunction
 
