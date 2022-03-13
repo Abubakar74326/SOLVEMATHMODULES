@@ -23,11 +23,7 @@ class Mathematics:
         return self.num * self.num
 
     def cube(self):
-                """
-               this function return the CUBE of
-               number that is enter in URL by user by
-               multiply the number itself three times
-                """
+
         return self.num * self.num * self.num
 
     def square_root(self):
