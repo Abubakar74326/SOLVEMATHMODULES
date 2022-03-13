@@ -31,7 +31,4 @@ class Mathematics:
         return self.num * self.num * self.num
 
     def square_root(self):
-        """
-         this function return the square of a number
-                     """
         return self.num ** 0.5
