@@ -3,24 +3,19 @@
 
 from flask import Flask, request
 
-from flask import Flask
+#from flask import Flask
 import modulefunction
 
 app = Flask(__name__)
 
-
-'''@app.get("/")
+'''@app.route("/data/", methods=['POST'])
 def read_root():
-    return {"MATH_PROJECT"}'''
-
-@app.route("/data/", methods=['POST'])
-def read_root():
-    data = {
-            "name emoployee", request.form['NAME'],
-            "employee company", request.form['COMPANY'],
-            "engineer", request.form['ENGINEER']
+   data = {
+           "name emoployee", request.form['name'],
+            "employee desig", request.form['desig'],
+            "company", request.form['comp']
                }
-    return {data}
+    return {data}'''
 
 
 @app.route("/mathoperation/<int:num>/")
