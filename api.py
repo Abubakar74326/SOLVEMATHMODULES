@@ -9,18 +9,18 @@ import modulefunction
 app = Flask(__name__)
 
 
-@app.get("/")
+'''@app.get("/")
 def read_root():
-    return {"MATH_PROJECT"}
+    return {"MATH_PROJECT"}'''
 
-'''@app.route("/data/", methods=['POST'])
+@app.route("/data/", methods=['POST'])
 def read_root():
     data = {
             "name emoployee", request.form['NAME'],
             "employee company", request.form['COMPANY'],
             "engineer", request.form['ENGINEER']
                }
-    return {data}'''
+    return {data}
 
 
 @app.route("/mathoperation/<int:num>/")
