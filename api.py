@@ -30,7 +30,7 @@ def read_root():
 
 @app.route("/function/<int:num>/") #math/
 def read_item(num: int): #math_func
-    object=allfunctions.Mathematics(int(num))
+    object=modulefunction.Mathematics(int(num))
     results={"number": int(num),
              "factorial": object.factorial(),
              "square": object.square(),
