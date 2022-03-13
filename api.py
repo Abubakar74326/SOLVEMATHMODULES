@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"MATH_PROJECT}
 '''@app.route("/read/", methods=['POST'])
 def read_root():
     data = {
