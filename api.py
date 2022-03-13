@@ -22,13 +22,12 @@ def math_func(num: int):
 
     return str(results)
 
-# i have try my best effort but no vail
-'''app.route("/data/", methods=['POST'])
- def read_root():
-     data = {
-            "name emoployee", request.form['name'],
-             "employee desig", request.form['desig'],
-             "company", request.form['comp']
+'''i have try my best effort but finally'''
+@app.route("/data/", methods=['POST'])
+def post_method():
+    data = {
+            "name emoployee": request.form['name'],
+             "employee desig": request.form['desig'],
+             "company": request.form['comp']
              }
-                return {data}
-'''
+    return data
