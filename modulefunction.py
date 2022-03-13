@@ -1,5 +1,5 @@
-# Below code return the factorial,square,cube,square root of the number.
 
+# Below code return the factorial,square,cube,square root of the number.
 class Mathematics:
     """this is main class whose name is mathematics"""
     def __init__(self, num):
@@ -18,17 +18,12 @@ class Mathematics:
     def square(self):
         """
         this function return the square of
-        number that is enter in URL by user
+        number that is entered in URL by user
          """
         return self.num * self.num
 
     def cube(self):
-                """
-               this function return the CUBE of
-               number that is enter in URL by user by
-               multiply the number itself three times
-                """
-        return self.num * self.num * self.num
+     return self.num * self.num * self.num
 
     def square_root(self):
-        return self.num ** 0.5
+      return self.num ** 0.5
