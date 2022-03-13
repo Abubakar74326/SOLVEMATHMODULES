@@ -13,7 +13,7 @@ app = Flask(__name__)
 def read_root():
     return {"MATH_PROJECT"}
 
-'''@app.route("/read/", methods=['POST'])
+'''@app.route("/data/", methods=['POST'])
 def read_root():
     data = {
             "name emoployee", request.form['NAME'],
