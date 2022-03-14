@@ -38,3 +38,7 @@ after **/** put a number as an argument  on which user want to perform function.
 #### POST Request:
  For testing go to http://localhost:5004/data with POST request 
  and send data as www-url-form-encoded.
+ 
+## URL for published documentation
+
+  https://documenter.getpostman.com/view/20009397/UVsJxSdZ
