@@ -24,7 +24,8 @@ install ```Conda``` virtual Environment
 install ```flask 2.0.3```
 
 install docker engine using this link```https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository``` 
-
+ 
+**docker-compose.yml** file is used to run docker using command ==>docker-compose up --build
 ### Running OF PROJECT:
 main code is present in **main.py** file.after running main.py 
 file get API or second method is when user run docker container
