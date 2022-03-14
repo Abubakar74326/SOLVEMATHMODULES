@@ -35,11 +35,11 @@ class Mathematics:
         """
         this cube function take number and return cube of number
         :return: number
-        """
-     return self.num * self.num * self.num
+           """
+        return self.num * self.num * self.num
 
     def square_root(self):
          """
         :return:number
         """
-      return self.num ** 0.5
+         return self.num ** 0.5
