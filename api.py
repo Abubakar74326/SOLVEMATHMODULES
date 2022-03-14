@@ -9,7 +9,7 @@ import modulefunction
 app = Flask(__name__)
 
 """
-‘/’ URL is bound with read_root() function
+‘/’ URL is bound with math_func() function
 """
 @app.route("/mathoperation/<int:num>/")
 def math_func(num: int):
