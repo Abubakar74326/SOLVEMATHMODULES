@@ -39,7 +39,7 @@ class Mathematics:
      return self.num * self.num * self.num
 
     def square_root(self):
-        """
+         """
         :return:number
         """
       return self.num ** 0.5
