@@ -25,7 +25,9 @@ install ```flask 2.0.3```
 install docker engine using this link```https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository``` 
  
 **docker-compose.yml** file is used to run docker using command ==>docker-compose up --build
+
 Need little guidance in **.gitignore file**.
+
 **post req.html** is html form.
 
 ### Running OF PROJECT:
