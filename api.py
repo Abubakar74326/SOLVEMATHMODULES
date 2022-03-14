@@ -16,7 +16,7 @@ def math_func(num: int):
     object=modulefunction.Mathematics(int(num))
     results={"YOUR ENTERED NUMBER": int(num),
              "factoriaL": object.factorial(),
-             "square": object.square(),
+             "square": object.square,
              "cube": object.cube(),
              }
 
