@@ -9,22 +9,22 @@ import modulefunction
 app = Flask(__name__)
 
 """
-‘/’ URL is bound with math_func() function
+  ‘/’ URL is bound with math_func() function
 """
 @app.route("/mathoperation/<int:num>/")
 def math_func(num: int):
-   """
+ """
     function take integer number as an arguments return result in jason format.
      :param num: number
      :return:results
-    """
-    object=modulefunction.Mathematics(int(num))
-    results={"YOUR ENTERED NUMBER": int(num),
+ """
+ object=modulefunction.Mathematics(int(num))
+ results={"YOUR ENTERED NUMBER": int(num),
              "factoriaL": object.factorial(),
              "square": object.square,
              "cube": object.cube(),
-             }
-    return str(results)
+         }
+ return str(results)
 
 @app.route("/data/", methods=['POST'])
 def post_method():
