@@ -30,3 +30,6 @@ main code is present in **main.py** file.after running main.py
 file get API or second method is when user run docker container
 user get API link then user have to write **mathoperation** and 
 after **/** put a number as an argument  on which user want to perform function.Output data is in JSON  format.the applicatiion runs in a docker container with all its dependencies. 
+#### POST Request:
+ For testing go to http://localhost:5004/data with POST request 
+ and send data as www-url-form-encoded.
